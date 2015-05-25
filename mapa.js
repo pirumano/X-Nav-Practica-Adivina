@@ -165,7 +165,11 @@ function takeJson (){
 					numberPhoto++;
 					if(numberPhoto > 5){
 						alert("FIN DEL JUEGO");
+<<<<<<< HEAD
 						return
+=======
+						return;
+>>>>>>> master
 					}
 					clearInterval(intervalo);
 					puntuacion = calcularPuntuacion(e);
