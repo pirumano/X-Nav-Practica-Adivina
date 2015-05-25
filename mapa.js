@@ -163,6 +163,10 @@ function takeJson (){
 				changePhoto(sitio);
 				map.on('click', function(e) {
 					numberPhoto++;
+					if(numberPhoto > 5){
+						alert("FIN DEL JUEGO");
+						return
+					}
 					clearInterval(intervalo);
 					puntuacion = calcularPuntuacion(e);
 					alert("EL RESULTADO ERA: " + resultado);
