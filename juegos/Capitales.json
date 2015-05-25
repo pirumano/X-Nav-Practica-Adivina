@@ -1,0 +1,49 @@
+{"type": "FeatureCollection",
+	"juego": [
+		{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [40.418889, -3.691944]
+	  		},
+	  		"properties": {
+	    		"name": "Madrid"
+	  		}
+	  	},
+	  	{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [48.866667, 2.333056]
+	  		},
+	  		"properties": {
+	    		"name": "Paris"
+	  		}
+	  	},
+	  	{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [-15.793889, -47.882778]
+	  		},
+	  		"properties": {
+	    		"name": "Brasilia"
+	  		}
+	  	},
+	  	{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [39.905, 116.391389]
+	  		},
+	  		"properties": {
+	    		"name": "Pekin"
+	  		}
+	  	},
+	  	{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [-33.925, 18.425]
+	  		},
+	  		"properties": {
+	    		"name": "Cape Town"
+	  		}
+	  	}
+	]
+}

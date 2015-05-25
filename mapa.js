@@ -155,7 +155,7 @@ function changePhoto(sitio){
 
 function takeJson (){
 	var sitio;
-	$.getJSON(tipojuego+'.json', function(data){
+	$.getJSON('juegos/'+tipojuego+'.json', function(data){
 			}).done(function(data){
 				sitio = data.juego[numberPhoto].properties.name;
 				coorActual = data.juego[numberPhoto].geometry.coordinates;
