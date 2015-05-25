@@ -1,0 +1,49 @@
+{"type": "FeatureCollection",
+	"juego": [
+		{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [42.233333, -8.716667]
+	  		},
+	  		"properties": {
+	    		"name": "Vigo"
+	  		}
+	  	},
+	  	{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [37.986111, -1.130278]
+	  		},
+	  		"properties": {
+	    		"name": "Murcia"
+	  		}
+	  	},
+	  	{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [37.383333, -5.983333]
+	  		},
+	  		"properties": {
+	    		"name": "Sevilla"
+	  		}
+	  	},
+	  	{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [39.466667, -0.375]
+	  		},
+	  		"properties": {
+	    		"name": "Valencia"
+	  		}
+	  	},
+	  	{	"type": "Feature",
+	    	"geometry": {
+	    		"type": "Point",
+	    		"coordinates": [38.88, -6.97]
+	  		},
+	  		"properties": {
+	    		"name": "Badajoz"
+	  		}
+	  	}
+	]
+}

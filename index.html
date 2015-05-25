@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Juego de Adivina</title>
+    <!-- CSS's -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mapa.css">
+
+    <!-- JavaScripts's -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <h1>JUEGO DE ADIVINA</h1>
+    <div class="container-fluid">
+      <div class="col-xs-12 col-md-8">
+        <div id="map"></div>
+      </div>
+      <div id="caja2" class="col-xs-12 col-md-4">
+        <div id="marcoAux">
+        <h2 id="titulo">Elija un tipo de juego!</h2>
+          <div id="botonera" class="col-xs-12">
+            <button type="button" id="nuevo">Iniciar Nuevo</button>
+            <button type="button" id="comenzar" disabled>Comenzar</button>
+            <button type="button" id="abortar">Abortar</button>
+            <select id="tipoJuego">
+              <option value="tipo" disabled selected>Elige Juego</option>
+              <option value="Capitales">Capitales</option>
+              <option value="Paises">Paises</option>
+              <option value="Ciudades">Ciudades de España</option>
+              <option value="Equipos">Equipos de futbol</option>
+            </select>
+            <select id="Dificultad" disabled>
+              <option value"nivel" disabled selected>Dificultad</option>
+              <option value="Facil">Facil</option>
+              <option value="Medio">Medio</option>
+              <option value="Dificil">Dificil</option>
+            </select>
+            <input id="Aceptar" type="submit" value="Aceptar">
+          </div>
+          <div id="puntuacion" class="col-xs-12">
+            <h3>Puntuacion: <span id="puntos">0</span></h3>
+          </div>
+          <div id="fototeca" class="col-xs-12">
+            <div id="images"></div>
+          </div>
+            <div id="anteriores" class="col-xs-12">
+              <ul id="lista-anteriores">
+              </ul>
+            </div>
+          </div>  
+        </div> <!-- marcoAux -->
+      </div>
+    </div> <!-- container -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="mapa.js"></script>
+  </body>
+</html>

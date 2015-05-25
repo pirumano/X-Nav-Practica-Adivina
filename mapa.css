@@ -1,0 +1,76 @@
+*{
+	padding: 0px !important;
+	border: 0px !important;
+	margin: 0px !important;
+	background-color: white;
+}
+
+#map{ 
+	height: 100vh;
+	width: 100%;
+	border: 5px solid rgb(255,102,102) !important;
+}
+#marcoAux{
+	height: 100vh;
+	padding: 15px !important;
+	background-color: rgb(63,186,216)
+}
+
+#anteriores{
+	margin-top: 10px !important;
+	padding: 5px !important;
+	background-color: rgb(255,102,102);
+}
+
+a, h3, span{
+	color: rgb(255,102,102);;
+}
+
+#botonera{
+	margin-top: 10px !important;
+	border: 5px solid rgb(255,255,51) !important;
+	background-color: rgb(255,102,102);
+}
+
+button, select, input{
+	padding: 3px !important;
+	border: 3px solid white !important;
+	margin: 10px !important;
+	background-color: rgb(255,255,51);
+	color: rgb(255,102,102);;
+}
+
+#fototeca{
+	margin-top: 10px !important;
+	background-color: gray;
+}
+
+#fototeca img{
+	margin-left: 20% !important;
+	border: 2px solid black !important;
+}
+
+#puntuacion{
+	margin-top: 10px !important;
+	padding: 5px !important;
+}
+
+h1{
+	text-align: center;
+	padding: 5px !important;
+	color: rgb(255,255,51);
+	background-color: rgb(63,186,216);
+}
+
+h2{
+	text-align: center;
+	padding: 5px !important;
+	color: rgb(255,102,102);
+	background-color: rgb(255, 255, 51);
+}
+
+#sitio{
+	margin-top: 10px !important;
+	padding: 5px !important;
+	display: none;
+}
